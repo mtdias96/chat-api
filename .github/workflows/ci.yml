@@ -1,4 +1,4 @@
-name: AdegaTech CI
+name: ChatAPp CI
 
 on:
   push:
@@ -65,4 +65,3 @@ jobs:
             ${{ runner.os }}-pnpm-
       - run: npm install -g pnpm
       - run: pnpm install --frozen-lockfile
-    
